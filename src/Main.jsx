@@ -1,11 +1,9 @@
 import React from 'react'
-import MyNavbar from './Navbar';
 import MyCarousel from './MyCarousel';
+import MyFormularioContato from './MyFormularioContato';
 function Main() {
     return ( <>
-    <MyNavbar></MyNavbar>
-    <MyCarousel></MyCarousel>
-    <h1> Hi</h1>
+    <MyCarousel/>
     </> );
 }
 
