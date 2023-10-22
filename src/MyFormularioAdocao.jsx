@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Form, Button, Col, Row } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import DatePicker from "react-datepicker"; // You need to install and import a date picker library
-
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function MyFormularioAdocao() {
@@ -12,7 +10,7 @@ export default function MyFormularioAdocao() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [dateOfBirth, setDateOfBirth] = useState(new Date()); // Initialize with current date
+  const [dateOfBirth, setDateOfBirth] = useState(""); // Initialize with an empty string
   const [donationAmount, setDonationAmount] = useState("");
   const [donationDate, setDonationDate] = useState("");
   const [paymentMethod, setPaymentMethod] = useState("");
@@ -22,7 +20,7 @@ export default function MyFormularioAdocao() {
     to_name: name,
     to_email: email,
     to_phone: phone,
-    to_dateOfBirth: dateOfBirth.toDateString(),
+    to_dateOfBirth: dateOfBirth,
     to_donationAmount: donationAmount,
     to_donationDate: donationDate,
     to_paymentMethod: paymentMethod,
@@ -56,7 +54,7 @@ export default function MyFormularioAdocao() {
   return (
     <>
       <div className="w-75 d-flex flex-column m-auto mt-5">
-        <h1 className="text-center">Envie sua sugestão, mensagem ou dúvida</h1>
+        <h1 className="text-center">Registre a sua doação</h1>
         <br />
         <Form onSubmit={sendEmail}>
           <Row className="g-2">
@@ -95,13 +93,16 @@ export default function MyFormularioAdocao() {
                 </FloatingLabel>
               </Form.Group>
             </Col>
+            </Row>
+            <Row className="mt-2">
             <Col md>
               <Form.Group>
-                <FloatingLabel label="Data de Nascimento">
-                  <DatePicker
-                    selected={dateOfBirth}
-                    onChange={(date) => setDateOfBirth(date)}
-                    dateFormat="dd/MM/yyyy"
+                <FloatingLabel label="Data de Nascimento (DD/MM/AAAA)">
+                  <Form.Control
+                    type="text"
+                    as="input"
+                    value={dateOfBirth}
+                    onChange={(e) => setDateOfBirth(e.target.value)}
                   />
                 </FloatingLabel>
               </Form.Group>
@@ -110,7 +111,7 @@ export default function MyFormularioAdocao() {
           <Row className="mt-2">
             <Col md>
               <Form.Group>
-                <FloatingLabel label="Quantia da Doação">
+                <FloatingLabel label="Quantia da Doação R$">
                   <Form.Control
                     type="text"
                     as="input"
@@ -151,7 +152,7 @@ export default function MyFormularioAdocao() {
             {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
-      </div>
+      </div>    
     </>
   );
 }

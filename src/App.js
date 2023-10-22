@@ -10,6 +10,7 @@ import MyFooter from './MyFooter';
 import MyFormularioAdocao from './MyFormularioAdocao';
 import MyFormularioContato from './MyFormularioContato';
 import MyAjuda from './MyAjuda';
+import MyCachorroCards from './MyCachorroCards';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contato" element={<MyFormularioContato />} /> 
           <Route path="/ajuda" element={<MyAjuda />} /> 
           <Route path="/adocao" element={<MyFormularioAdocao />} /> 
+          <Route path="/cachorro" element={<MyCachorroCards />} /> 
         </Routes>
       </BrowserRouter>
       <MyFooter></MyFooter>
