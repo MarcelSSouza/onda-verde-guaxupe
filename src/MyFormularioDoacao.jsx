@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "react-datepicker/dist/react-datepicker.css";
 
-export default function MyFormularioAdocao() {
+export default function MyFormularioDoacao() {
   const serviceID = "service_jbk99ac";
   const templateID = "template_cg7la9p";
   const [name, setName] = useState("");
@@ -54,7 +54,7 @@ export default function MyFormularioAdocao() {
   return (
     <>
       <div className="w-75 d-flex flex-column m-auto mt-5">
-        <h1 className="text-center">Registre a sua doação</h1>
+        <h1 className="text-center">Registre a sua doação mensal</h1>
         <br />
         <Form onSubmit={sendEmail}>
           <Row className="g-2">
