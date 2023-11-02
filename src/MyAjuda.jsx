@@ -15,16 +15,16 @@ export default function MyAjuda() {
         <div className='d-flex flex-lg-row flex-column'>
           <div>
             <h1>Transferência Bancária</h1>
-            <img src={Sicredi} class="img-fluid w-25" />
+            <img alt='' src={Sicredi} class="img-fluid w-25" />
             <h3>Conta 10.397-9</h3>
             <h3>Banco 748 - Agência 0361</h3>
             <h3>CNPJ 45.540.170/0001-05</h3>
           </div>
-        <br />
-            <div>
-              <h1>Pix</h1>
-              <img src={QrcodePix} class="img-fluid" />
-            </div>
+          <br />
+          <div>
+            <h1>Pix</h1>
+            <img alt='' src={QrcodePix} class="img-fluid" />
+          </div>
         </div>
       </Container>
     </>

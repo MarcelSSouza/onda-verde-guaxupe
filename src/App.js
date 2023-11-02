@@ -11,13 +11,10 @@ import MyFooter from './MyFooter';
 import MyFormularioDoacao from './MyFormularioDoacao';
 import MyFormularioContato from './MyFormularioContato';
 import MyAjuda from './MyAjuda';
-<<<<<<< HEAD
 import MyNoticias from './MyNoticias';
-=======
 import MyCachorroCards from './MyCachorroCards';
 import MyGatoCards from './MyGatoCards';
 import MyQuemSomos from './MyQuemSomos';
->>>>>>> origin
 function App() {
   return (
     <div className="App">
@@ -25,19 +22,16 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />
-<<<<<<< HEAD
           <Route path="/contato" element={<MyFormularioContato />} />
           <Route path="/ajuda" element={<MyAjuda />} />
-          <Route path="/adocao" element={<MyFormularioAdocao />} />
+          <Route path="/adocao" element={<MyFormularioDoacao />} />
           <Route path="/noticias" element={<MyNoticias />} />
-=======
-          <Route path="/contato" element={<MyFormularioContato />} /> 
-          <Route path="/sobre" element={<MyQuemSomos />} /> 
-          <Route path="/ajuda" element={<MyAjuda />} /> 
-          <Route path="/adocao" element={<MyFormularioDoacao />} /> 
-          <Route path="/cachorro" element={<MyCachorroCards />} /> 
-          <Route path="/gato" element={<MyGatoCards />} /> 
->>>>>>> origin
+          <Route path="/contato" element={<MyFormularioContato />} />
+          <Route path="/sobre" element={<MyQuemSomos />} />
+          <Route path="/ajuda" element={<MyAjuda />} />
+          <Route path="/adocao" element={<MyFormularioDoacao />} />
+          <Route path="/cachorro" element={<MyCachorroCards />} />
+          <Route path="/gato" element={<MyGatoCards />} />
         </Routes>
       </BrowserRouter>
       <MyFooter></MyFooter>
