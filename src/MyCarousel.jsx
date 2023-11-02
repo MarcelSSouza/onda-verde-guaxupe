@@ -14,8 +14,8 @@ function MyCarousel() {
     <Carousel data-bs-theme="dark">
     <Carousel.Item>
       <img
-   className="vh-30 "
         src={ExampleCarouselImage}
+        class="img-fluid"
         alt="First slide"
       />
       <Carousel.Caption>
@@ -25,8 +25,8 @@ function MyCarousel() {
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="vh-30 "
         src={ExampleCarouselImage}        alt="Second slide"
+        class="img-fluid"
       />
       <Carousel.Caption>
         <h5>Second slide label</h5>
@@ -35,8 +35,8 @@ function MyCarousel() {
     </Carousel.Item>
     <Carousel.Item>
       <img
-   className="vh-30 "
         src={ExampleCarouselImage}        alt="Third slide"
+        class="img-fluid"
       />
       <Carousel.Caption>
         <h5>Third slide label</h5>

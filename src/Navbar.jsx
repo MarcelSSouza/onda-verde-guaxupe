@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import LOGO from './assets/LOGO.png';
 function MyNavbar() {
     return (
-        <Navbar expand="lg"  bg="success" variant="light" >
+        <Navbar expand="lg"  bg="success" variant="light"  className='text-white'>
           <Container>
             <Navbar.Brand href="/">
             <img src={LOGO} width="200" height="40">
@@ -24,7 +24,7 @@ function MyNavbar() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/galeria">Galeria de Fotos</Nav.Link>
-                <Nav.Link href="/adocao">Formulário de Adoção</Nav.Link>
+                <Nav.Link href="/adocao">Doação Mensal</Nav.Link>
                 <Nav.Link href="/noticias">Noticias</Nav.Link>
                 <Nav.Link href="/contato">Contato</Nav.Link>
 
