@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import gato from './assets/gato.jpg';
+import gato from './assets/pug.jpg';
 
 // Fictitious cat names
 const nomesGatos = [
@@ -36,16 +36,14 @@ export default function MyGatoCards() {
             {Array.from({ length: 3 }).map((_, colIndex) => {
               const index = rowIndex * 3 + colIndex;
               return (
-                <div key={colIndex} className="col-md-4">
                   <Card style={{ width: '18rem' }} className="mb-4">
                     <Card.Img variant="top" src={gato} />
                     <Card.Body>
                       <Card.Title>{nomesGatos[index]}</Card.Title>
-                      <Card.Text>{frasesGatos[index]}</Card.Text>
+                      <Card.Text>{frasesGatos[index]}w</Card.Text>
                       <Button variant="primary">Adotar</Button>
                     </Card.Body>
                   </Card>
-                </div>
               );
             })}
           </div>

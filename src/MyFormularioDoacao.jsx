@@ -5,8 +5,8 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function MyFormularioDoacao() {
-  const serviceID = "service_jbk99ac";
-  const templateID = "template_cg7la9p";
+  const serviceID = "service_jbk99acXXXXXX";
+  const templateID = "template_cg7la9pXXXXXX";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -34,7 +34,7 @@ export default function MyFormularioDoacao() {
     }
     setIsSubmitting(true);
     emailjs
-      .send(serviceID, templateID, templateParams, "MVtv7N734mINkSOu9")
+      .send(serviceID, templateID, templateParams, "MVtv7N734mINkSOu9XXXXX")
       .then(
         (result) => {
           alert("Sua mensagem foi enviada com sucesso!");
