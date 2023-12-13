@@ -17,12 +17,6 @@ function MyNavbar() {
           <Nav className="" >
             <Nav.Link href="/sobre">Quem Somos</Nav.Link>
             <Nav.Link href="/ajuda">Como Ajudar</Nav.Link>
-            <NavDropdown title="Adotar" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/cachorro">Cachorro</NavDropdown.Item>
-              <NavDropdown.Item href="/gato">
-                Gato
-              </NavDropdown.Item>
-            </NavDropdown>
             <Nav.Link href="/galeria">Galeria de Fotos</Nav.Link>
             <Nav.Link href="/adocao">Doação Mensal</Nav.Link>
             <Nav.Link href="/noticias">Noticias</Nav.Link>
