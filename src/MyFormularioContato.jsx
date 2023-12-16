@@ -5,8 +5,8 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 function MyFormularioContato() {
-  const serviceID = "service_jbk99ac";
-  const templateID = "template_cg7la9p";
+  const serviceID = "service_b4xjesh";
+  const templateID = "template_mzqpca7";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -28,7 +28,7 @@ function MyFormularioContato() {
     }
     setIsSubmitting(true);
     emailjs
-      .send(serviceID, templateID, templateParams, "MVtv7N734mINkSOu9")
+      .send(serviceID, templateID, templateParams, "AbbZfjEa3qDPnVzeq")
       .then(
         (result) => {
 
@@ -69,7 +69,7 @@ function MyFormularioContato() {
               <FloatingLabel label="Celular">
                 <Form.Control
                   as="input"
-                  type="text"
+                  type="number"
                   onChange={(e) => setPhone(e.target.value)}
                 />
               </FloatingLabel>
@@ -81,7 +81,7 @@ function MyFormularioContato() {
             <Form.Group>
               <FloatingLabel label="Email">
                 <Form.Control
-                  type="text"
+                  type="email"
                   as="input"
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -95,7 +95,7 @@ function MyFormularioContato() {
               <FloatingLabel label="Mensagem">
                 <Form.Control
                   as="textarea"
-                  rows={40}
+                  rows={50}
                   type="text"
                   onChange={(e) => setMessage(e.target.value)}
                 />

@@ -5,8 +5,8 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function MyFormularioDoacao() {
-  const serviceID = "service_jbk99acXXXXXX";
-  const templateID = "template_cg7la9pXXXXXX";
+  const serviceID = "service_b4xjesh";
+  const templateID = "template_rwrga8j";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -34,7 +34,7 @@ export default function MyFormularioDoacao() {
     }
     setIsSubmitting(true);
     emailjs
-      .send(serviceID, templateID, templateParams, "MVtv7N734mINkSOu9XXXXX")
+      .send(serviceID, templateID, templateParams, "AbbZfjEa3qDPnVzeq")
       .then(
         (result) => {
           alert("Sua mensagem foi enviada com sucesso!");
@@ -74,7 +74,7 @@ export default function MyFormularioDoacao() {
                 <FloatingLabel label="Celular">
                   <Form.Control
                     as="input"
-                    type="text"
+                    type="number"
                     onChange={(e) => setPhone(e.target.value)}
                   />
                 </FloatingLabel>
@@ -86,7 +86,7 @@ export default function MyFormularioDoacao() {
               <Form.Group>
                 <FloatingLabel label="Email">
                   <Form.Control
-                    type="text"
+                    type="email"
                     as="input"
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -99,7 +99,7 @@ export default function MyFormularioDoacao() {
               <Form.Group>
                 <FloatingLabel label="Data de Nascimento (DD/MM/AAAA)">
                   <Form.Control
-                    type="text"
+                    type="date"
                     as="input"
                     value={dateOfBirth}
                     onChange={(e) => setDateOfBirth(e.target.value)}
@@ -113,7 +113,7 @@ export default function MyFormularioDoacao() {
               <Form.Group>
                 <FloatingLabel label="Quantia da Doação R$">
                   <Form.Control
-                    type="text"
+                    type="number"
                     as="input"
                     onChange={(e) => setDonationAmount(e.target.value)}
                   />
@@ -124,7 +124,7 @@ export default function MyFormularioDoacao() {
               <Form.Group>
                 <FloatingLabel label="Data da Doação">
                   <Form.Control
-                    type="text"
+                    type="date"
                     as="input"
                     onChange={(e) => setDonationDate(e.target.value)}
                   />
