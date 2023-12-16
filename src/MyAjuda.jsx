@@ -10,17 +10,29 @@ export default function MyAjuda() {
         <h1>Como ajudar a nossa causa?</h1>
         <hr />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          nobis quam optio rem ab quae reiciendis, pariatur dolore molestiae
-          molestias, odio tempora exercitationem in animi quod debitis. Unde,
-          eius labore? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Ipsam enim mollitia, repudiandae, necessitatibus delectus rerum illo,
-          a quo consequuntur incidunt voluptatem beatae in molestias explicabo!
-          Vel, veniam! Adipisci, itaque placeat. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Excepturi dolor ad id ipsam sed,
-          voluptatibus possimus ea repudiandae qui dolore odio inventore, sint
-          aspernatur. Velit ullam praesentium hic laboriosam consequatur.
+          Todas as ações desenvolvidas pela ONG Onda Verde de Guaxupé são
+          provenientes exclusivamente do trabalho e doações voluntárias da sua
+          diretoria, colaboradores e membros da comunidade, que acreditam no
+          nosso trabalho em defesa dos animais.
         </p>
+        <h1>Você sabia...</h1>
+        <hr />
+        <div>
+          <ul className="d-flex flex-lg-row flex-column">
+            <h5>
+              ...que a ONG Onda Verde de Guaxupé conta com quase 10 lares
+              temporários, oferecidos por pessoas da comunidade ?
+            </h5>
+            <h5>
+              ...que estes lares temporários cuidam de cerca de 40 cães que
+              haviam sido abandonados, adultos e filhotes ?
+            </h5>
+            <h5>
+              ...que o consumo mensal de ração é de aproximadamente 750 kg ?
+              Além dos medicamentos e tratamento veterinário.
+            </h5>
+          </ul>
+        </div>
         <h1>Como posso doar?</h1>
         <hr />
         <div className="d-flex flex-lg-row flex-column">

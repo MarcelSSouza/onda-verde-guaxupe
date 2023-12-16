@@ -95,6 +95,52 @@ export default function MyQuemSomos() {
           </div>
         </Col>
       </Row>
+      <Row>
+        <Col md={12}>
+          <br />
+          <br />
+          <h2 className="text-center ">A diretoria atual é composta por:</h2>
+          <hr />
+
+          <p>
+            <div className="d-flex flex-column flex-md-row  justify-content-around">
+              <div className="d-flex flex-column">
+                <b>Presidente</b>
+                José Antonio Lofrano
+                <br />
+                <b>Vice Presidente</b>
+                Adelma Aparecida Martins
+                <br />
+                <b>1º tesoureira</b>
+                Maria Aparecida Sandroni da Silva
+                <br />
+                <b>2º tesoureiro</b>
+                Adriano Maurício Maretti
+                <br />
+                <b> 1º secretária</b>
+                Glatieris Aparecida Madeira Gomes
+                <br />
+              </div>
+              <div className="d-flex flex-column">
+                <b>2º secretária</b>
+                Helenilce Aparecida Passos
+                <br />
+                <b>Suplente</b>
+                Maria Carmelita Remédio Bardi
+                <br />
+                <b>Conselheira</b>
+                Maria de Lourdes Sandroni
+                <br />
+                <b>Conselheira</b>
+                Silvana Magalhães Farah
+                <br />
+                <b>Conselheira</b>
+                Regina Santos
+              </div>
+            </div>
+          </p>
+        </Col>
+      </Row>
     </Container>
   );
 }
