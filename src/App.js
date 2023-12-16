@@ -1,20 +1,18 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './Navbar';
-import React from 'react';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MyNavbar from "./Navbar";
+import React from "react";
 
-
-
-import Main from './Main';
-import MyFooter from './MyFooter';
-import MyFormularioDoacao from './MyFormularioDoacao';
-import MyFormularioContato from './MyFormularioContato';
-import MyAjuda from './MyAjuda';
-import MyNoticias from './MyNoticias';
-import MyCachorroCards from './MyCachorroCards';
-import MyGatoCards from './MyGatoCards';
-import MyQuemSomos from './MyQuemSomos';
+import Main from "./Main";
+import MyFooter from "./MyFooter";
+import MyFormularioDoacao from "./MyFormularioDoacao";
+import MyFormularioContato from "./MyFormularioContato";
+import MyAjuda from "./MyAjuda";
+import MyNoticias from "./MyNoticias";
+import MyCachorroCards from "./MyCachorroCards";
+import MyGatoCards from "./MyGatoCards";
+import MyQuemSomos from "./MyQuemSomos";
 function App() {
   return (
     <div className="App">

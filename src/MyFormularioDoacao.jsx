@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Form, Button, Col, Row } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
@@ -42,9 +42,9 @@ export default function MyFormularioDoacao() {
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
           );
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -93,8 +93,8 @@ export default function MyFormularioDoacao() {
                 </FloatingLabel>
               </Form.Group>
             </Col>
-            </Row>
-            <Row className="mt-2">
+          </Row>
+          <Row className="mt-2">
             <Col md>
               <Form.Group>
                 <FloatingLabel label="Data de Nascimento (DD/MM/AAAA)">
@@ -152,7 +152,7 @@ export default function MyFormularioDoacao() {
             {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
-      </div>    
+      </div>
     </>
   );
 }

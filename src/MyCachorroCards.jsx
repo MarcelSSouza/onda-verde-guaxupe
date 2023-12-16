@@ -1,26 +1,19 @@
-import React from 'react'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import { Container } from 'react-bootstrap';
-import cachorro from './assets/pug.jpg';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { Container } from "react-bootstrap";
+import cachorro from "./assets/pug.jpg";
 // Fictitious dog names
-const nomesCachorros = [
-  'Rex',
-  'Bolinha',
-  'Fido',
-  'Fofinho',
-  'Luna',
-  'Max',
-];
+const nomesCachorros = ["Rex", "Bolinha", "Fido", "Fofinho", "Luna", "Max"];
 
 // Fictitious phrases to present the dogs
 const frasesCachorros = [
-  'Um cachorro adorável em busca de um lar amoroso.',
-  'Esse cachorro é uma verdadeira bola de energia.',
-  'O companheiro perfeito para sua família.',
-  'Um amigo peludo que vai alegrar seus dias.',
-  'Gosta de brincar e de carinho nas horas vagas.',
-  'Procurando um lugar para chamar de seu.',
+  "Um cachorro adorável em busca de um lar amoroso.",
+  "Esse cachorro é uma verdadeira bola de energia.",
+  "O companheiro perfeito para sua família.",
+  "Um amigo peludo que vai alegrar seus dias.",
+  "Gosta de brincar e de carinho nas horas vagas.",
+  "Procurando um lugar para chamar de seu.",
 ];
 
 export default function MyCachorroCards() {
@@ -35,7 +28,7 @@ export default function MyCachorroCards() {
             {Array.from({ length: 3 }).map((_, colIndex) => {
               const index = rowIndex * 3 + colIndex;
               return (
-                <Card style={{ width: '18rem' }} className="mb-4">
+                <Card style={{ width: "18rem" }} className="mb-4">
                   <Card.Img variant="top" src={cachorro} />
                   <Card.Body>
                     <Card.Title>{nomesCachorros[index]}</Card.Title>

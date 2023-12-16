@@ -1,15 +1,18 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
+import React from "react";
+import Container from "react-bootstrap/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faFacebook } from "@fortawesome/free-brands-svg-icons";
-import './App.css'; // Create a separate CSS file for styling
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import "./App.css"; // Create a separate CSS file for styling
 
 export default function MyFooter() {
   return (
     <>
       <footer className="mt-5 green-bg">
         <hr />
-        <Container fluid={true} className="d-flex flex-column justify-content-evenly flex-md-row">
+        <Container
+          fluid={true}
+          className="d-flex flex-column justify-content-evenly flex-md-row"
+        >
           <div>
             <h5>
               <b>Endereço</b>
@@ -27,13 +30,21 @@ export default function MyFooter() {
             </p>
           </div>
           <div>
-            <a href="https://www.facebook.com/ondaverdegxp?_rdc=1&_rdr" className="facebook social">
-              <FontAwesomeIcon icon={faFacebook} style={{ color: "white" }} size="3x" />
+            <a
+              href="https://www.facebook.com/ondaverdegxp?_rdc=1&_rdr"
+              className="facebook social"
+            >
+              <FontAwesomeIcon
+                icon={faFacebook}
+                style={{ color: "white" }}
+                size="3x"
+              />
             </a>
           </div>
         </Container>
         <div>
-          <p>
+          <p className="m-0">
+            <hr />
             <b>©2023 Onda Verde Guaxupé</b>
           </p>
         </div>

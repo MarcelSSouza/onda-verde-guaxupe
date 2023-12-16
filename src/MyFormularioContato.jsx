@@ -31,15 +31,14 @@ function MyFormularioContato() {
       .send(serviceID, templateID, templateParams, "AbbZfjEa3qDPnVzeq")
       .then(
         (result) => {
-
           alert("AuAu! Sua mensagem foi enviada com sucesso!");
         },
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
           );
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);

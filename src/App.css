@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  background-color: #EAEDDF;
- 
-  
+  background-color: #eaeddf;
 }
 
 .App-logo {
@@ -28,7 +26,7 @@
 }
 /* MyFooter.css */
 .green-bg {
-  background-color: 	#198754
+  background-color: #198754;
 }
 
 .white-text {
@@ -47,4 +45,3 @@
     transform: rotate(360deg);
   }
 }
-
