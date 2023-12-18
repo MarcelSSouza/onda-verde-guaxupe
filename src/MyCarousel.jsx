@@ -11,7 +11,7 @@ function MyCarousel() {
   };
 
   return (
-    <Carousel data-bs-theme="dark" className="vw-90"> 
+    <Carousel data-bs-theme="dark" className="vw-90">
       <Carousel.Item>
         <img className="vh-10  " src={ExampleCarouselImage} alt="First slide" />
         <Carousel.Caption>

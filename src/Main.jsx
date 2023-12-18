@@ -13,7 +13,6 @@ function Main() {
       <GridVertical />
       <MyFacebook />
       <GridVertical2 />
-
     </>
   );
 }
