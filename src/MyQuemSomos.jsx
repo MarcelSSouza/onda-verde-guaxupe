@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import pug from "./assets/pug.jpg";
+import Escola from "./assets/Escola.jpg";
+import pug from "./assets/guaxupe.webp";
+
 export default function MyQuemSomos() {
   return (
     <Container className="py-5">
-      <h2 className="text-center ">Quem Somos</h2>
+      <h1 className="text-center ">Quem Somos</h1>
       <hr />
       <Row className="d-flex align-items-center">
         <Col md={6}>
@@ -33,7 +35,7 @@ export default function MyQuemSomos() {
       <br />
 
       <Row className="d-flex align-items-center">
-        <h2 className="text-center ">Nossos Projetos</h2>
+        <h1 className="text-center ">Nossos Projetos</h1>
         <hr />
 
         <Col md={6}>
@@ -58,7 +60,7 @@ export default function MyQuemSomos() {
         </Col>
         <Col md={6}>
           <img
-            src={pug}
+            src={Escola}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
           />
@@ -69,7 +71,7 @@ export default function MyQuemSomos() {
         <Col md={12}>
           <br />
           <br />
-          <h2 className="text-center ">Documentos Públicos</h2>
+          <h1 className="text-center ">Documentos Públicos</h1>
           <hr />
           <p>
             A ONG Onda Verde tem como objetivo a transparência em suas ações e
@@ -99,7 +101,7 @@ export default function MyQuemSomos() {
         <Col md={12}>
           <br />
           <br />
-          <h2 className="text-center ">A diretoria atual é composta por:</h2>
+          <h1 className="text-center ">A diretoria atual é composta por:</h1>
           <hr />
 
           <p>

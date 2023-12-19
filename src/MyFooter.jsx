@@ -29,18 +29,7 @@ export default function MyFooter() {
               </a>
             </p>
           </div>
-          <div>
-            <a
-              href="https://www.facebook.com/ondaverdegxp?_rdc=1&_rdr"
-              className="facebook social"
-            >
-              <FontAwesomeIcon
-                icon={faFacebook}
-                style={{ color: "white" }}
-                size="3x"
-              />
-            </a>
-          </div>
+          
         </Container>
         <div>
           <p className="m-0 text-black">
