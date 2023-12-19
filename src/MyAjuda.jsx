@@ -20,7 +20,6 @@ export default function MyAjuda() {
         <div>
           <div className="d-flex flex-lg-row flex-column align-items-center justify-content-center">
             <div className="d-flex  flex-column">
-            <img alt="" src={QrcodePix} className="img-fluid vw-70" />
 
 
             <h5>
@@ -29,7 +28,6 @@ export default function MyAjuda() {
             </h5>
             </div>
             <div className="d-flex  flex-column">
-            <img alt="" src={QrcodePix} className="img-fluid  vw-70" />
 
             <h5>
               ...que estes lares temporários cuidam de cerca de 40 cães que
@@ -37,7 +35,6 @@ export default function MyAjuda() {
             </h5>
             </div>
             <div className="d-flex  flex-column">
-              <img alt="" src={QrcodePix} className="img-fluid  vw-70" />
             <h5>
               ...que o consumo mensal de ração é de aproximadamente 750 kg?
             </h5>
