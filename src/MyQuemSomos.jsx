@@ -88,7 +88,7 @@ export default function MyQuemSomos() {
               href="https://drive.google.com/drive/folders/1L2tefITNd4LFumThrfLdxGeLSc05a4cY?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary m-auto"
+              className="btn btn-success m-auto text-white"
             >
               Acesse nossos documentos públicos
             </a>
