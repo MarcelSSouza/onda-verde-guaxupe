@@ -11,7 +11,7 @@ function Main() {
     <>
       <MyCarousel />
       <GridVertical />
-
+      <MyFacebook />
       <GridVertical2 />
     </>
   );

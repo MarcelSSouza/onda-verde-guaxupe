@@ -2,24 +2,11 @@ import React from "react";
 
 export default function MyFacebook() {
   return (
-    <div
-      class="fb-page"
-      className="vw-60"
-      data-href="https://www.facebook.com/ondaverdegxp"
-      data-tabs="timeline"
-      data-width=""
-      data-height=""
-      data-small-header="false"
-      data-adapt-container-width="true"
-      data-hide-cover="false"
-      data-show-facepile="true"
-    >
-      <blockquote
-        cite="https://www.facebook.com/ondaverdegxp"
-        class="fb-xfbml-parse-ignore"
-      >
-        <a href="https://www.facebook.com/ondaverdegxp">Onda Verde - Guaxupé</a>
-      </blockquote>
-    </div>
+  <>
+  <div className="bg-success text-white">
+    <h1>Nosso Facebook</h1>
+  </div>
+  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fondaverdegxp&tabs=timeline&width=500&height=499&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="499"   frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </>
   );
 }

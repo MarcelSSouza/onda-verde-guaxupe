@@ -18,20 +18,31 @@ export default function MyAjuda() {
         <h1>Você sabia...</h1>
         <hr />
         <div>
-          <ul className="d-flex flex-lg-row flex-column">
+          <div className="d-flex flex-lg-row flex-column align-items-center justify-content-center">
+            <div className="d-flex  flex-column">
+            <img alt="" src={QrcodePix} className="img-fluid vw-70" />
+
+
             <h5>
               ...que a ONG Onda Verde de Guaxupé conta com quase 10 lares
-              temporários, oferecidos por pessoas da comunidade ?
+              temporários, oferecidos por pessoas da comunidade?
             </h5>
+            </div>
+            <div className="d-flex  flex-column">
+            <img alt="" src={QrcodePix} className="img-fluid  vw-70" />
+
             <h5>
               ...que estes lares temporários cuidam de cerca de 40 cães que
-              haviam sido abandonados, adultos e filhotes ?
+              haviam sido abandonados, adultos e filhotes?
             </h5>
+            </div>
+            <div className="d-flex  flex-column">
+              <img alt="" src={QrcodePix} className="img-fluid  vw-70" />
             <h5>
-              ...que o consumo mensal de ração é de aproximadamente 750 kg ?
-              Além dos medicamentos e tratamento veterinário.
+              ...que o consumo mensal de ração é de aproximadamente 750 kg?
             </h5>
-          </ul>
+            </div>                
+          </div>
         </div>
         <h1>Como posso doar?</h1>
         <hr />
@@ -46,7 +57,7 @@ export default function MyAjuda() {
           <br />
           <div>
             <h1>Pix</h1>
-            <img alt="" src={QrcodePix} class="img-fluid" />
+            <img alt="" src={QrcodePix} className="img-fluid" />
           </div>
         </div>
       </Container>
