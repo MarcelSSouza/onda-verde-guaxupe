@@ -69,7 +69,7 @@ export default function MyQuemSomos() {
         <Col md={12}>
           <br />
           <br />
-          <h2 className="text-center ">Prestacao de Contas</h2>
+          <h2 className="text-center ">Documentos Públicos</h2>
           <hr />
           <p>
             A ONG Onda Verde tem como objetivo a transparência em suas ações e
@@ -90,7 +90,7 @@ export default function MyQuemSomos() {
               rel="noreferrer"
               className="btn btn-primary m-auto"
             >
-              Acesse a prestação de contas
+              Acesse nossos documentos públicos
             </a>
           </div>
         </Col>
