@@ -7,6 +7,22 @@
   height: 40vmin;
   pointer-events: none;
 }
+.full-screen-carousel {
+  height: 40vh;
+}
+
+.full-screen-carousel .carousel-inner {
+  height: 100%;
+}
+
+.full-screen-carousel .carousel-item {
+  height: 100%;
+}
+
+.full-screen-carousel img {
+  object-fit: cover;
+  height: 100%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -85,7 +85,7 @@ export default function MyQuemSomos() {
 
           <div className="d-flex">
             <a
-              href="https://drive.google.com/file/d/1B4bXuQKZqjg8YJ6XqjZ4Y9lJX6Z8vZ5s/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1L2tefITNd4LFumThrfLdxGeLSc05a4cY?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary m-auto"
