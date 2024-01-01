@@ -33,10 +33,8 @@ export default function MyNoticias() {
               de ensino da rede pública municipal guaxupeana. Com um trabalho
               árduo, o poder público e a entidade do terceiro setor atuam na
               assistência a pessoas de baixa renda, no tocante à prestação de
-              serviços em favor de animais domésticos (fotos na aba 'Galeria de
-              Fotos')
+              serviços em favor de animais domésticos.
             </Card.Text>
-            <Card.Footer className="text-muted">02/11/2023</Card.Footer>
           </Card.Body>
         </Card>
 
@@ -59,7 +57,6 @@ export default function MyNoticias() {
               Silveira de Paula. A votação foi acompanhada por membros da
               entidade.
             </Card.Text>
-            <Card.Footer className="text-muted">02/11/2023</Card.Footer>
           </Card.Body>
         </Card>
       </div>

@@ -67,6 +67,27 @@ export default function MyQuemSomos() {
         </Col>
       </Row>
 
+
+      <Row className="d-flex align-items-center">
+        <h1 className="text-center ">Missão, Visão e Valores  </h1>
+        <hr />
+
+        <Col md={12}>
+          <h5>Missão</h5>
+          <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
+          <br/>
+          <h5>Visão</h5>
+          <p>Ser referência em soluções e projetos para desenvolvimento socioambiental e proteção da causa animal.</p>
+          <h5>Valores</h5>
+                    <p>Preservação do meio ambiente</p>
+                    <p>Valorização das pessoas</p>
+                    <p>Confiança, ética e transparência</p>
+          
+        </Col>
+
+      </Row>
+
+
       <Row>
         <Col md={12}>
           <br />
@@ -74,15 +95,10 @@ export default function MyQuemSomos() {
           <h1 className="text-center ">Documentos Públicos</h1>
           <hr />
           <p>
-            A ONG Onda Verde tem como objetivo a transparência em suas ações e
-            prestação de contas. Para isso, a cada projeto aprovado, é aberta
-            uma conta bancária específica para o mesmo, onde todos os recursos
-            são depositados e movimentados. Ao final do projeto, é elaborado um
-            relatório com a prestação de contas, que é encaminhado ao Fórum de
-            Guaxupé, para que seja feita a prestação de contas ao Tribunal de
-            Justiça de Minas Gerais. Além disso, a prestação de contas é
-            publicada no site da ONG Onda Verde, para que todos os interessados
-            possam ter acesso.
+            A Onda Verde é uma associação sem fins lucrativos, que tem como 
+            objetivo o desenvolvimento nas áreas ambiental, social e animal.
+            Prezamos pela trasperência e por isso disponibilizamos nossos
+            documentos públicos para que todos possam ter acesso pelo link abaixo.
           </p>
 
           <div className="d-flex">

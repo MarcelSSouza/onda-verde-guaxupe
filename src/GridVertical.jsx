@@ -13,7 +13,7 @@ export default function GridVertical() {
       <div className="d-flex flex-lg-row flex-column justify-content-evenly">
         <div>
           <img src={dog} alt="dog" width="120vw" />
-          <h5>ABRIGO DE ANIMAIS</h5>
+          <h5>LARES TEMPORÁRIOS</h5>
         </div>
         <div>
           <img src={doggy} alt="doggy" width="120vw" />

@@ -122,9 +122,9 @@ export default function MyFormularioDoacao() {
             </Col>
             <Col md>
               <Form.Group>
-                <FloatingLabel label="Data da Doação">
+                <FloatingLabel label="Data de Doação Mensal">
                   <Form.Control
-                    type="date"
+                    type="text"
                     as="input"
                     onChange={(e) => setDonationDate(e.target.value)}
                   />
