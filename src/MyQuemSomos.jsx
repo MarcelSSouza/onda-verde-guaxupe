@@ -1,22 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Escola from "./assets/Escola.jpg";
+import Escola from "./assets/13.jpeg";
 import pug from "./assets/guaxupe.webp";
 
 export default function MyQuemSomos() {
   return (
     <Container className="py-5">
-      <h1 className="text-center ">Quem Somos</h1>
-      <hr />
       <Row className="d-flex align-items-center">
         <Col md={6}>
           <img
             src={pug}
             alt="Imagem da equipe da Onda Ver Guaxupé"
-            className="img-fluid "
+            className="img-fluid"
+          
           />
         </Col>
         <Col md={6}>
+      <h1 className="text-center ">Quem Somos</h1>
+      <hr />
           <p>
             A Associação Onda Verde foi fundada em 30 de outubro de 2021, e
             registrada em março de 2022, tendo como propósito trazer ao
@@ -35,10 +36,10 @@ export default function MyQuemSomos() {
       <br />
 
       <Row className="d-flex align-items-center">
-        <h1 className="text-center ">Nossos Projetos</h1>
-        <hr />
 
         <Col md={6}>
+        <h1 className="text-center ">Nossos Projetos</h1>
+        <hr />
           <p>
             Foram efetuados em 2022 e 2023 projetos de castração em parceria com
             o Fórum de Guaxupé. Os recursos financeiros são oriundos de
@@ -63,16 +64,17 @@ export default function MyQuemSomos() {
             src={Escola}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
+            style={{ width: "75%"}}
           />
         </Col>
       </Row>
 
 
       <Row className="d-flex align-items-center">
-        <h1 className="text-center ">Missão, Visão e Valores  </h1>
-        <hr />
 
         <Col md={12}>
+        <h1 className="text-center ">Missão, Visão e Valores  </h1>
+        <hr />
           <h5>Missão</h5>
           <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
           <br/>
