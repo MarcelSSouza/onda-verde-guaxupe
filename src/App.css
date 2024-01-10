@@ -2,18 +2,22 @@
   text-align: center;
   background-color: #eaeddf;
 }
+
 .bg-image {
-  background-image: url('./assets/pawBG.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-image: url('./assets/pawBG.jpg');
+  /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white; /* Adjust text color as needed for visibility on the background image */
+  color: white;
+  /* Adjust text color as needed for visibility on the background image */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 .full-screen-carousel {
   height: 40vh;
 }
@@ -47,6 +51,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 /* MyFooter.css */
 .green-bg {
   background-color: #198754;
@@ -64,7 +69,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#nav-tab {
+  color: white;
+  font-weight: 700;
+}
+
+#nav-tab:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
