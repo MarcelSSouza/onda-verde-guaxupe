@@ -29,13 +29,14 @@ export default function MyFooter() {
               </a>
             </p>
           </div>
-          
+
         </Container>
         <div>
           <p className="m-0 text-black">
             <hr />
-            <b>©2023 Onda Verde Guaxupé</b>
+            <b className="text-white">©2023 Onda Verde Guaxupé</b>
           </p>
+          <br />
         </div>
       </footer>
     </>
