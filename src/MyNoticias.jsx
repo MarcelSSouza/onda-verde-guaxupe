@@ -7,15 +7,16 @@ export default function MyNoticias() {
   return (
     <>
       <div className="container py-5 mt-3">
+        <h1>Notícias</h1>
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
-          <div className="col-12 col-lg-3 col-md-4">
+          <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
             <Card.Img
               src={ExampleMancheteImage}
               alt="Manchete"
               className="img-fluid w-100 mt-4"
             />
           </div>
-          <Card.Body className="col-8 col-lg-9 col-md-8">
+          <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
             <Card.Title>Conscientização sobre guarda responsável</Card.Title>
             <Card.Text>
               O médico veterinário da Secretaria Municipal de Meio Ambiente de
@@ -35,28 +36,34 @@ export default function MyNoticias() {
               assistência a pessoas de baixa renda, no tocante à prestação de
               serviços em favor de animais domésticos.
             </Card.Text>
+            <Card.Footer>
+              <small className="card-footer">Publicado em 11 de outubro de 2023</small>
+            </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
-          <div className="col-12 col-lg-3 col-md-4">
+          <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
             <Card.Img
               src={ExampleMancheteImage2}
               alt="Manchete"
               className="img-fluid"
             />
           </div>
-          <Card.Body className="col-8 col-lg-9 col-md-8">
+          <Card.Body className="card-text-aligncol-8 col-lg-9 col-md-8">
             <Card.Title>Reconhecimento legal</Card.Title>
             <Card.Text>
-            Os vereadores de Guaxupé aprovaram por unanimidade em duas votações, durante a 14ª Sessão Ordinária nessa segunda-feira (11), o Projeto de Lei do Legislativo nº 26/2023, que reconhece de utilidade pública a “Associação Comunitária Socioambiental Onda Verde de Guaxupé”. O PL é de autoria do vereador Gustavo Vinícius Silveira de Paula. A votação foi acompanhada por membros da entidade.
-            <Card.Text>
-            “É um passo enorme para nossa cidade e quem sabe futuramente conseguir a utilidade estadual e trazer recursos para a ONG […] que seja o primeiro passo de muitos para a nossa evolução”, disse o vereador autor do projeto de lei.
-            </Card.Text>  
+              Os vereadores de Guaxupé aprovaram por unanimidade em duas votações, durante a 14ª Sessão Ordinária nessa segunda-feira (11), o Projeto de Lei do Legislativo nº 26/2023, que reconhece de utilidade pública a “Associação Comunitária Socioambiental Onda Verde de Guaxupé”. O PL é de autoria do vereador Gustavo Vinícius Silveira de Paula. A votação foi acompanhada por membros da entidade.
+              <br />
+              <br />
+              “É um passo enorme para nossa cidade e quem sabe futuramente conseguir a utilidade estadual e trazer recursos para a ONG […] que seja o primeiro passo de muitos para a nossa evolução”, disse o vereador autor do projeto de lei.
             </Card.Text>
+            <Card.Footer>
+              <small className="card-footer">Publicado em 11 de outubro de 2023</small>
+            </Card.Footer>
           </Card.Body>
         </Card>
-      </div>
+      </div >
     </>
   );
 }

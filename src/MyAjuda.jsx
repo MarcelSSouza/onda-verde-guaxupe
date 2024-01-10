@@ -24,23 +24,23 @@ export default function MyAjuda() {
             <div className="d-flex  flex-column">
 
 
-            <h5>
-              ...que a ONG Onda Verde de Guaxupé conta com quase 10 lares
-              temporários, oferecidos por pessoas da comunidade?
-            </h5>
+              <h5>
+                ...que a ONG Onda Verde de Guaxupé conta com quase 10 lares
+                temporários, oferecidos por pessoas da comunidade?
+              </h5>
             </div>
             <div className="d-flex  flex-column">
 
-            <h5>
-              ...que estes lares temporários cuidam de cerca de 40 cães que
-              haviam sido abandonados, adultos e filhotes?
-            </h5>
+              <h5>
+                ...que estes lares temporários cuidam de cerca de 40 cães que
+                haviam sido abandonados, adultos e filhotes?
+              </h5>
             </div>
             <div className="d-flex  flex-column">
-            <h5>
-              ...que o consumo mensal de ração é de aproximadamente 750 kg?
-            </h5>
-            </div>                
+              <h5>
+                ...que o consumo mensal de ração é de aproximadamente 750 kg?
+              </h5>
+            </div>
           </div>
         </div>
         <h1>Como posso doar?</h1>
@@ -48,7 +48,7 @@ export default function MyAjuda() {
         <div className="d-flex flex-lg-row flex-column">
           <div>
             <h1>Transferência Bancária</h1>
-            <img alt="" src={Sicredi} class="img-fluid w-25" />
+            <img alt="" src={Sicredi} className="img-fluid w-25" />
             <h3>Conta 10.397-9</h3>
             <h3>Banco 748 - Agência 0361</h3>
             <h3>CNPJ 45.540.170/0001-05</h3>

@@ -91,3 +91,15 @@
   padding: 10px;
   text-align-last: center;
 }
+
+.card-text-align {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.card-footer {
+  float: left;
+  text-decoration: underline;
+  background-color: #fafafa !important;
+  border: none !important;
+}
