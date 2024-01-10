@@ -84,3 +84,10 @@
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
+
+.missao-wrapper {
+  text-align: justify;
+  width: 33%;
+  padding: 10px;
+  text-align-last: center;
+}

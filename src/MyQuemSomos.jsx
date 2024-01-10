@@ -12,12 +12,12 @@ export default function MyQuemSomos() {
             src={pug}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
-          
+
           />
         </Col>
         <Col md={6}>
-      <h1 className="text-center ">Quem Somos</h1>
-      <hr />
+          <h1 className="text-center ">Quem Somos</h1>
+          <hr />
           <p>
             A Associação Onda Verde foi fundada em 30 de outubro de 2021, e
             registrada em março de 2022, tendo como propósito trazer ao
@@ -38,8 +38,8 @@ export default function MyQuemSomos() {
       <Row className="d-flex align-items-center">
 
         <Col md={6}>
-        <h1 className="text-center ">Nossos Projetos</h1>
-        <hr />
+          <h1 className="text-center ">Nossos Projetos</h1>
+          <hr />
           <p>
             Foram efetuados em 2022 e 2023 projetos de castração em parceria com
             o Fórum de Guaxupé. Os recursos financeiros são oriundos de
@@ -64,29 +64,35 @@ export default function MyQuemSomos() {
             src={Escola}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
-            style={{ width: "75%"}}
+            style={{ width: "75%" }}
           />
         </Col>
       </Row>
 
 
+      <br />
       <Row className="d-flex align-items-center">
 
         <Col md={12}>
-        <h1 className="text-center ">Missão, Visão e Valores  </h1>
-        <hr />
-          <h5>Missão</h5>
-          <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
-          <br/>
-          <h5>Visão</h5>
-          <p>Ser referência em soluções e projetos para desenvolvimento socioambiental e proteção da causa animal.</p>
-          <h5>Valores</h5>
-                    <p>Preservação do meio ambiente</p>
-                    <p>Valorização das pessoas</p>
-                    <p>Confiança, ética e transparência</p>
-          
+          <h1 className="text-center ">Missão, Visão e Valores  </h1>
+          <hr />
+          <div className="d-flex flex-lg-row flex-column justify-content-evenly">
+            <div className="missao-wrapper">
+              <h5>Missão</h5>
+              <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
+            </div>
+            <div className="missao-wrapper">
+              <h5>Visão</h5>
+              <p>Ser referência em soluções e projetos para desenvolvimento socioambiental e proteção da causa animal.</p>
+            </div>
+            <div className="missao-wrapper">
+              <h5>Valores</h5>
+              <p>Preservação do meio ambiente</p>
+              <p>Valorização das pessoas</p>
+              <p>Confiança, ética e transparência</p>
+            </div>
+          </div>
         </Col>
-
       </Row>
 
 
@@ -97,7 +103,7 @@ export default function MyQuemSomos() {
           <h1 className="text-center ">Documentos Públicos</h1>
           <hr />
           <p>
-            A Onda Verde é uma associação sem fins lucrativos, que tem como 
+            A Onda Verde é uma associação sem fins lucrativos, que tem como
             objetivo o desenvolvimento nas áreas ambiental, social e animal.
             Prezamos pela trasperência e por isso disponibilizamos nossos
             documentos públicos para que todos possam ter acesso pelo link abaixo.
