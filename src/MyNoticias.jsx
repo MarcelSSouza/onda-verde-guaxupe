@@ -36,9 +36,6 @@ export default function MyNoticias() {
               assistência a pessoas de baixa renda, no tocante à prestação de
               serviços em favor de animais domésticos.
             </Card.Text>
-            <Card.Footer>
-              <small className="card-footer">Publicado em 11 de outubro de 2023</small>
-            </Card.Footer>
           </Card.Body>
         </Card>
 
@@ -58,9 +55,7 @@ export default function MyNoticias() {
               <br />
               “É um passo enorme para nossa cidade e quem sabe futuramente conseguir a utilidade estadual e trazer recursos para a ONG […] que seja o primeiro passo de muitos para a nossa evolução”, disse o vereador autor do projeto de lei.
             </Card.Text>
-            <Card.Footer>
-              <small className="card-footer">Publicado em 11 de outubro de 2023</small>
-            </Card.Footer>
+
           </Card.Body>
         </Card>
       </div >
