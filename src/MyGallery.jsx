@@ -17,11 +17,11 @@ import gridImg13 from "./assets/grid-img-13.jpeg"
 function MyGallery() {
   return (
     <>
-      <div className='container'>
+      <div className='container my-5'>
 
         <h1>Galeria</h1>
 
-        <div className="d-flex flex-wrap gap-4 justify-content-center my-5">
+        <div className="d-flex flex-wrap gap-4 justify-content-center">
           <img src={gridImg1} className='col-3 grid-img' alt="" />
           <img src={gridImg2} className='col-3 grid-img' alt="" />
           <img src={gridImg3} className='col-3 grid-img' alt="" />
