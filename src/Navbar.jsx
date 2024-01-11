@@ -19,6 +19,7 @@ function MyNavbar() {
             <Nav.Link id="nav-tab" href="/adocao">Doação Mensal</Nav.Link>
             <Nav.Link id="nav-tab" href="/noticias">Noticias</Nav.Link>
             <Nav.Link id="nav-tab" href="/contato">Contato</Nav.Link>
+            <Nav.Link id="nav-tab" href="/galeria">Galeria</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
