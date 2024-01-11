@@ -6,7 +6,8 @@ import ExampleMancheteImage2 from "./assets/Manchete2.jpg";
 export default function MyNoticias() {
   return (
     <>
-      <div className="container py-5 mt-3">
+      <div className="container">
+        <br />
         <h1>Notícias</h1>
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
           <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
@@ -47,7 +48,7 @@ export default function MyNoticias() {
               className="img-fluid"
             />
           </div>
-          <Card.Body className="card-text-aligncol-8 col-lg-9 col-md-8">
+          <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
             <Card.Title>Reconhecimento legal</Card.Title>
             <Card.Text>
               Os vereadores de Guaxupé aprovaram por unanimidade em duas votações, durante a 14ª Sessão Ordinária nessa segunda-feira (11), o Projeto de Lei do Legislativo nº 26/2023, que reconhece de utilidade pública a “Associação Comunitária Socioambiental Onda Verde de Guaxupé”. O PL é de autoria do vereador Gustavo Vinícius Silveira de Paula. A votação foi acompanhada por membros da entidade.
