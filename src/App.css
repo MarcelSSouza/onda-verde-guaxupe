@@ -87,7 +87,6 @@
 
 .missao-wrapper {
   text-align: justify;
-  width: 33%;
   padding: 10px;
   text-align-last: center;
 }
@@ -115,4 +114,15 @@
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.missao-wrapper ul li {
+  width: fit-content;
+}
+
+.missao-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

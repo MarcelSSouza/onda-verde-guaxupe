@@ -76,20 +76,28 @@ export default function MyQuemSomos() {
         <Col md={12}>
           <h1 className="text-center ">Missão, Visão e Valores  </h1>
           <hr />
-          <div className="d-flex flex-lg-row flex-column justify-content-evenly">
-            <div className="missao-wrapper">
+          <div className="row d-flex flex-lg-row flex-column justify-content-evenly align-items-start">
+            <div className="missao-wrapper col-lg-4">
               <h5>Missão</h5>
               <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
             </div>
-            <div className="missao-wrapper">
+            <div className="missao-wrapper col-lg-4">
               <h5>Visão</h5>
               <p>Ser referência em soluções e projetos para desenvolvimento socioambiental e proteção da causa animal.</p>
             </div>
-            <div className="missao-wrapper">
+            <div className="missao-wrapper col-lg-4">
               <h5>Valores</h5>
-              <p>Preservação do meio ambiente</p>
-              <p>Valorização das pessoas</p>
-              <p>Confiança, ética e transparência</p>
+              <ul>
+                <li>
+                  Preservação do meio ambiente
+                </li>
+                <li>
+                  Valorização das pessoas
+                </li>
+                <li>
+                  Confiança, ética e transparência
+                </li>
+              </ul>
             </div>
           </div>
         </Col>
