@@ -8,7 +8,6 @@ export default function MyAjuda() {
     <>
       <Container>
         <br />
-        <br />
         <h1>Como ajudar a nossa causa?</h1>
         <hr />
         <p>

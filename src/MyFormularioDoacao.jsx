@@ -53,7 +53,7 @@ export default function MyFormularioDoacao() {
 
   return (
     <>
-      <div className="w-75 d-flex flex-column m-auto mt-5">
+      <div className="w-75 d-flex flex-column m-auto mt-2">
         <h1 className="text-center">Registre a sua doação mensal</h1>
         <br />
         <Form onSubmit={sendEmail}>

@@ -8,7 +8,6 @@ export default function MyNoticias() {
     <>
       <div className="container">
         <br />
-        <h1>Notícias</h1>
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
           <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
             <Card.Img
