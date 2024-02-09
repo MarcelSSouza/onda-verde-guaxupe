@@ -138,7 +138,7 @@ export default function MyFormularioDoacao() {
                     <option selected>--</option>
                     <option value="Pix">Pix</option>
                     <option value="Transferência bancária">Transferência bancária</option>
-                    <option value="Cartão de Crédito" >Cartão de Crédito</option>
+                    <option value="Cartão de Crédito" >Outros métodos</option>
                   </FormSelect>
                 </FloatingLabel>
               </Form.Group>
