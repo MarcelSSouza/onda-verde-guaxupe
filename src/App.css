@@ -131,3 +131,7 @@
   color: white;
   font-size: larger;
 }
+
+.vh100 {
+  height: 100vh;
+}

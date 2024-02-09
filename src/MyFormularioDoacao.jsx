@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, Col, Row } from "react-bootstrap";
+import { Form, Button, Col, Row, FormSelect } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "react-datepicker/dist/react-datepicker.css";
@@ -134,11 +134,12 @@ export default function MyFormularioDoacao() {
             <Col md>
               <Form.Group>
                 <FloatingLabel label="Método de Pagamento">
-                  <Form.Control
-                    type="text"
-                    as="input"
-                    onChange={(e) => setPaymentMethod(e.target.value)}
-                  />
+                  <FormSelect onChange={(e) => setPaymentMethod(e.target.value)}>
+                    <option selected>--</option>
+                    <option value="Pix">Pix</option>
+                    <option value="Transferência bancária">Transferência bancária</option>
+                    <option value="Cartão de Crédito" >Cartão de Crédito</option>
+                  </FormSelect>
                 </FloatingLabel>
               </Form.Group>
             </Col>
@@ -152,7 +153,8 @@ export default function MyFormularioDoacao() {
             {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
-      </div>
+      </div >
+      {console.log(paymentMethod)}
     </>
   );
 }
