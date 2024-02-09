@@ -46,7 +46,7 @@ function MyFormularioContato() {
   }
 
   return (
-    <div className="w-75 d-flex flex-column m-auto mt-5 pb-5">
+    <div className="w-75 d-flex flex-column m-auto mt-2 ">
       <h1 className="text-center">Envie sua sugestão, mensagem ou dúvida</h1>
       <br />
       <Form onSubmit={sendEmail}>

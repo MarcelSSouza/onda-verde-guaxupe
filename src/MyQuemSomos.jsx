@@ -12,7 +12,6 @@ export default function MyQuemSomos() {
             src={pug}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
-
           />
         </Col>
         <Col md={6}>
@@ -36,7 +35,6 @@ export default function MyQuemSomos() {
       <br />
 
       <Row className="d-flex align-items-center">
-
         <Col md={6}>
           <h1 className="text-center ">Nossos Projetos</h1>
           <hr />
@@ -69,40 +67,38 @@ export default function MyQuemSomos() {
         </Col>
       </Row>
 
-
       <br />
       <Row className="d-flex align-items-center">
-
         <Col md={12}>
-          <h1 className="text-center ">Missão, Visão e Valores  </h1>
+          <h1 className="text-center ">Missão, Visão e Valores </h1>
           <hr />
           <div className="row d-flex flex-lg-row flex-column justify-content-evenly align-items-start">
             <div className="missao-wrapper col-lg-4">
               <h5>Missão</h5>
-              <p>Prover e desenvolver projetos focados em aspectos sociais, ambientais e de proteção animal, desenvolvendo as comunidades onde atuamos.</p>
+              <p>
+                Prover e desenvolver projetos focados em aspectos sociais,
+                ambientais e de proteção animal, desenvolvendo as comunidades
+                onde atuamos.
+              </p>
             </div>
             <div className="missao-wrapper col-lg-4">
               <h5>Visão</h5>
-              <p>Ser referência em soluções e projetos para desenvolvimento socioambiental e proteção da causa animal.</p>
+              <p>
+                Ser referência em soluções e projetos para desenvolvimento
+                socioambiental e proteção da causa animal.
+              </p>
             </div>
             <div className="missao-wrapper col-lg-4">
               <h5>Valores</h5>
               <ul>
-                <li>
-                  Preservação do meio ambiente
-                </li>
-                <li>
-                  Valorização das pessoas
-                </li>
-                <li>
-                  Confiança, ética e transparência
-                </li>
+                <li>Preservação do meio ambiente</li>
+                <li>Valorização das pessoas</li>
+                <li>Confiança, ética e transparência</li>
               </ul>
             </div>
           </div>
         </Col>
       </Row>
-
 
       <Row>
         <Col md={12}>
@@ -114,7 +110,8 @@ export default function MyQuemSomos() {
             A Onda Verde é uma associação sem fins lucrativos, que tem como
             objetivo o desenvolvimento nas áreas ambiental, social e animal.
             Prezamos pela trasperência e por isso disponibilizamos nossos
-            documentos públicos para que todos possam ter acesso pelo link abaixo.
+            documentos públicos para que todos possam ter acesso pelo link
+            abaixo.
           </p>
 
           <div className="d-flex">

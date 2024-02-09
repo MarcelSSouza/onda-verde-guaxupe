@@ -29,7 +29,6 @@ export default function MyFooter() {
               </a>
             </p>
           </div>
-
         </Container>
         <div>
           <p className="m-0 text-black">

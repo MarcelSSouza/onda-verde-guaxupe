@@ -21,15 +21,12 @@ export default function MyAjuda() {
         <div>
           <div className="d-flex flex-lg-row flex-column align-items-center justify-content-center">
             <div className="d-flex  flex-column">
-
-
               <h5>
                 ...que a ONG Onda Verde de Guaxupé conta com quase 10 lares
                 temporários, oferecidos por pessoas da comunidade?
               </h5>
             </div>
             <div className="d-flex  flex-column">
-
               <h5>
                 ...que estes lares temporários cuidam de cerca de 40 cães que
                 haviam sido abandonados, adultos e filhotes?
