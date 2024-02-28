@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, Col, Row } from "react-bootstrap";
+import { Form, Button, Col, Row, FormSelect } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "react-datepicker/dist/react-datepicker.css";
@@ -53,7 +53,7 @@ export default function MyFormularioDoacao() {
 
   return (
     <>
-      <div className="w-75 d-flex flex-column m-auto mt-2">
+      <div className="pb-5  w-75 d-flex flex-column m-auto mt-2">
         <h1 className="text-center">Registre a sua doação mensal</h1>
         <br />
         <Form onSubmit={sendEmail}>
@@ -134,11 +134,12 @@ export default function MyFormularioDoacao() {
             <Col md>
               <Form.Group>
                 <FloatingLabel label="Método de Pagamento">
-                  <Form.Control
-                    type="text"
-                    as="input"
-                    onChange={(e) => setPaymentMethod(e.target.value)}
-                  />
+                  <FormSelect onChange={(e) => setPaymentMethod(e.target.value)}>
+                    <option selected>--</option>
+                    <option value="Pix">Pix</option>
+                    <option value="Transferência bancária">Transferência bancária</option>
+                    <option value="Outros métodos" >Outros métodos</option>
+                  </FormSelect>
                 </FloatingLabel>
               </Form.Group>
             </Col>
@@ -152,7 +153,8 @@ export default function MyFormularioDoacao() {
             {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
-      </div>
+      </div >
+      {console.log(paymentMethod)}
     </>
   );
 }
