@@ -2,7 +2,8 @@
   text-align: center;
   background-color: #eaeddf;
 }
-.bg-color-white{
+
+.bg-color-white {
   background-color: #eaeddf;
 
 }
@@ -138,6 +139,10 @@
   height: 100vh;
 }
 
-.bg-color{
+.bg-color {
   background-color: #198754;
+}
+
+.w-33 {
+  width: 33%;
 }
