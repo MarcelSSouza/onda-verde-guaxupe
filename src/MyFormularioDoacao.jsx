@@ -42,9 +42,9 @@ export default function MyFormularioDoacao() {
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
+            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
           );
-        },
+        }
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -53,10 +53,10 @@ export default function MyFormularioDoacao() {
 
   return (
     <>
-      <div className="pb-5  w-75 d-flex flex-column m-auto mt-2">
+      <div className="pb-5  w-75 d-flex flex-column m-auto mt-2 mb-5">
         <h1 className="text-center">Registre a sua doação mensal</h1>
         <br />
-        <Form onSubmit={sendEmail}>
+        <Form onSubmit={sendEmail} className="mb-2">
           <Row className="g-2">
             <Col md>
               <Form.Group>
@@ -134,11 +134,15 @@ export default function MyFormularioDoacao() {
             <Col md>
               <Form.Group>
                 <FloatingLabel label="Método de Pagamento">
-                  <FormSelect onChange={(e) => setPaymentMethod(e.target.value)}>
+                  <FormSelect
+                    onChange={(e) => setPaymentMethod(e.target.value)}
+                  >
                     <option selected>--</option>
                     <option value="Pix">Pix</option>
-                    <option value="Transferência bancária">Transferência bancária</option>
-                    <option value="Outros métodos" >Outros métodos</option>
+                    <option value="Transferência bancária">
+                      Transferência bancária
+                    </option>
+                    <option value="Outros métodos">Outros métodos</option>
                   </FormSelect>
                 </FloatingLabel>
               </Form.Group>
@@ -153,8 +157,7 @@ export default function MyFormularioDoacao() {
             {isSubmitting ? "Enviando..." : "Enviar"}
           </Button>
         </Form>
-      </div >
-      {console.log(paymentMethod)}
+      </div>
     </>
   );
 }

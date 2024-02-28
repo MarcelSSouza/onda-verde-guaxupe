@@ -5,6 +5,7 @@ import UltimasNoticias from "./UltimasNoticias";
 import MyFacebook from "./MyFacebook";
 import GridVertical from "./GridVertical";
 import GridVertical2 from "./GridVertical2";
+import MyFormularioAdocao from "./MyAdocaoAnimais";
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
       <GridVertical />
       <MyFacebook />
       <GridVertical2 />
+      <MyFormularioAdocao />
     </>
   );
 }

@@ -36,9 +36,9 @@ function MyFormularioContato() {
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
+            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
           );
-        },
+        }
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -47,9 +47,10 @@ function MyFormularioContato() {
 
   return (
     <div className="w-75 d-flex flex-column m-auto mt-2 ">
+      <br />
       <h1 className="text-center">Envie sua sugestão, mensagem ou dúvida</h1>
       <br />
-      <Form onSubmit={sendEmail}>
+      <Form onSubmit={sendEmail} className="">
         <Row className="g-2">
           <Col md>
             <Form.Group>
@@ -105,12 +106,18 @@ function MyFormularioContato() {
         <Button
           variant="success"
           type="submit"
-          className="mt-2"
+          className="mt-2 w-100"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Enviando..." : "Enviar"}
         </Button>
       </Form>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

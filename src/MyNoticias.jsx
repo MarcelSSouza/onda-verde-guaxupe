@@ -9,34 +9,37 @@ export default function MyNoticias() {
       <div className="container">
         <br />
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
-          <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
-            <Card.Img
-              src={ExampleMancheteImage2}
-              alt="Manchete"
-              className="img-fluid w-100 mt-4"
-            />
+          <div className="d-md-flex justify-content-md-center align-items-center">
+            <div className="col-12 col-lg-3 col-md-4">
+              <Card.Img
+                src={ExampleMancheteImage2}
+                alt="Manchete"
+                className="img-fluid w-100 mt-4"
+              />
+            </div>
+            <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
+              <Card.Title>Conscientização sobre guarda responsável</Card.Title>
+              <Card.Text>
+                O médico veterinário da Secretaria Municipal de Meio Ambiente de
+                Guaxupé, Marcelo Pedroza, a estagiária da referida pasta
+                pública, Ana Carolina Trevisan, e a dirigente da ONG Onda Verde,
+                Silvana Farah, ministraram palestra a alunos da Escola Municipal
+                Coronel Antônio Costa Monteiro. A aula especial aconteceu de 31
+                de outubro de 2023, sobre a importância da guarda responsável de
+                animais de estimação. Com distribuição de cartilha completa
+                sobre cuidados com cães e gatos, entre outras informações, eles
+                instruíram aos estudantes do Ensino Fundamental, tendo inclusive
+                levado, ao local, banner ilustrativo e até um filhote de
+                cãozinho, sem raça definida, batizado pela ONG como "Noah". A
+                iniciativa do trio de profissionais se repetiu pelos últimos
+                dias em outras instituições de ensino da rede pública municipal
+                guaxupeana. Com um trabalho árduo, o poder público e a entidade
+                do terceiro setor atuam na assistência a pessoas de baixa renda,
+                no tocante à prestação de serviços em favor de animais
+                domésticos.
+              </Card.Text>
+            </Card.Body>
           </div>
-          <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
-            <Card.Title>Conscientização sobre guarda responsável</Card.Title>
-            <Card.Text>
-              O médico veterinário da Secretaria Municipal de Meio Ambiente de
-              Guaxupé, Marcelo Pedroza, a estagiária da referida pasta pública,
-              Ana Carolina Trevisan, e a dirigente da ONG Onda Verde, Silvana
-              Farah, ministraram palestra a alunos da Escola Municipal Coronel
-              Antônio Costa Monteiro. A aula especial aconteceu de 31 de outubro
-              de 2023, sobre a importância da guarda responsável de animais de
-              estimação. Com distribuição de cartilha completa sobre cuidados
-              com cães e gatos, entre outras informações, eles instruíram aos
-              estudantes do Ensino Fundamental, tendo inclusive levado, ao
-              local, banner ilustrativo e até um filhote de cãozinho, sem raça
-              definida, batizado pela ONG como "Noah". A iniciativa do trio de
-              profissionais se repetiu pelos últimos dias em outras instituições
-              de ensino da rede pública municipal guaxupeana. Com um trabalho
-              árduo, o poder público e a entidade do terceiro setor atuam na
-              assistência a pessoas de baixa renda, no tocante à prestação de
-              serviços em favor de animais domésticos.
-            </Card.Text>
-          </Card.Body>
         </Card>
 
         <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
