@@ -8,13 +8,13 @@ export default function MyNoticias() {
     <>
       <div className="container">
         <br />
-        <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
-          <div className="d-md-flex justify-content-md-center align-items-center">
+        <Card className="row g-0 mb-3">
+          <div className="d-md-flex justify-content-md-center align-items-md-center">
             <div className="col-12 col-lg-3 col-md-4">
               <Card.Img
                 src={ExampleMancheteImage2}
                 alt="Manchete"
-                className="img-fluid w-100 mt-4"
+                className="img-fluid"
               />
             </div>
             <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
