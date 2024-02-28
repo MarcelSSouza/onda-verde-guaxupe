@@ -2,6 +2,10 @@
   text-align: center;
   background-color: #eaeddf;
 }
+.bg-color-white{
+  background-color: #eaeddf;
+
+}
 
 .bg-image {
   background-image: url("./assets/pawBG.jpg");
@@ -86,8 +90,6 @@
 }
 
 .missao-wrapper {
-  text-align: justify;
-  padding: 10px;
   text-align-last: center;
 }
 
@@ -134,4 +136,8 @@
 
 .vh100 {
   height: 100vh;
+}
+
+.bg-color{
+  background-color: #198754;
 }

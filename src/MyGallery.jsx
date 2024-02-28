@@ -35,6 +35,7 @@ function MyGallery() {
           <img src={gridImg13} className="col-3 grid-img" alt="" />
         </div>
       </div>
+      <br />
     </>
   );
 }

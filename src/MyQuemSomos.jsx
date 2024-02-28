@@ -17,7 +17,7 @@ export default function MyQuemSomos() {
         <Col md={6}>
           <h1 className="text-center ">Quem Somos</h1>
           <hr />
-          <p>
+          <p className="text-start">
             A Associação Onda Verde foi fundada em 30 de outubro de 2021, e
             registrada em março de 2022, tendo como propósito trazer ao
             município de Guaxupé o desenvolvimento nas áreas ambiental, social e
@@ -38,7 +38,7 @@ export default function MyQuemSomos() {
         <Col md={6}>
           <h1 className="text-center ">Nossos Projetos</h1>
           <hr />
-          <p>
+          <p className="text-start">
             Foram efetuados em 2022 e 2023 projetos de castração em parceria com
             o Fórum de Guaxupé. Os recursos financeiros são oriundos de
             sentenças que se destinam para as Associações de Guaxupé, que buscam
@@ -90,7 +90,7 @@ export default function MyQuemSomos() {
             </div>
             <div className="missao-wrapper col-lg-4">
               <h5>Valores</h5>
-              <ul>
+              <ul className="list-unstyled">
                 <li>Preservação do meio ambiente</li>
                 <li>Valorização das pessoas</li>
                 <li>Confiança, ética e transparência</li>

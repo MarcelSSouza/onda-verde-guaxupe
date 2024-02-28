@@ -2,28 +2,30 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
-import cachorro from "./assets/pug.jpg";
-// Fictitious dog names
-const imagemCachorros = ["pug.jpg", "pug.jpg", "pug.jpg"];
-const nomesCachorros = ["Rex", "Bolinha", "Fido"];
+import cachorro1 from "./assets/grid-img-4.jpeg";
+import cachorro2 from "./assets/grid-img-11.jpeg";
+import cachorro3 from "./assets/grid-img-8.jpeg";
+const imagemCachorros = [cachorro1, cachorro2, cachorro3];
 
 // Fictitious phrases to present the dogs
 
 export default function MyCachorroCards() {
   return (
     <>
-
-      <Container>
-        {Array.from({ length: 1}).map((_, rowIndex) => (
-          <div key={rowIndex} className="row justify-content-evenly">
+      <Container className="bg-color-white m-0">
+        {Array.from({ length: 1 }).map((_, rowIndex) => (
+          <div key={rowIndex} className="row justify-content-evenly  ">
             {Array.from({ length: 3 }).map((_, colIndex) => {
               const index = rowIndex * 3 + colIndex;
               return (
-                <Card style={{ width: "18rem" }} className="mb-4">
-                  <Card.Img variant="top" src={cachorro} />
+                <Card style={{ width: "18rem" }} className="mb-4 p-0">
+                  <Card.Img
+                    variant="top"
+                    src={imagemCachorros[index]}
+                    className="h-100"
+                  />
                   <Card.Body>
-                    <Card.Title>{nomesCachorros[index]}</Card.Title>
-                    <Button variant="primary">Adotar</Button>
+                    <Button variant="success">Adotar</Button>
                   </Card.Body>
                 </Card>
               );
