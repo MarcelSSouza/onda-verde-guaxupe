@@ -17,7 +17,7 @@ export default function MyNoticias() {
                 className="img-fluid"
               />
             </div>
-            <Card.Body className="card-text-align col-8 col-lg-9 col-md-8">
+            <Card.Body className="card-text-align col-12 col-lg-9 col-md-8">
               <Card.Title>Conscientização sobre guarda responsável</Card.Title>
               <Card.Text>
                 O médico veterinário da Secretaria Municipal de Meio Ambiente de
