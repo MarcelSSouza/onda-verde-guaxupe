@@ -142,7 +142,6 @@ export default function MyFormularioDoacao() {
                     <option value="Transferência bancária">
                       Transferência bancária
                     </option>
-                    <option value="Outros métodos">Outros métodos</option>
                   </FormSelect>
                 </FloatingLabel>
               </Form.Group>
