@@ -25,7 +25,7 @@ export default function MyCachorroCards() {
                     className="h-100"
                   />
                   <Card.Body>
-                    <Button variant="success">Adotar</Button>
+                    <Button variant="success" href="/contato">Adotar</Button>
                   </Card.Body>
                 </Card>
               );
