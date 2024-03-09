@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
-import gridImg1 from "./assets/grid-img-1.jpeg";
-import gridImg2 from "./assets/grid-img-2.jpeg";
-import gridImg3 from "./assets/grid-img-3.jpeg";
-import gridImg4 from "./assets/grid-img-4.jpeg";
-import gridImg5 from "./assets/grid-img-5.jpeg";
-import gridImg6 from "./assets/grid-img-6.jpeg";
-import gridImg7 from "./assets/grid-img-7.jpeg";
-import gridImg8 from "./assets/grid-img-8.jpeg";
-import gridImg9 from "./assets/grid-img-9.jpeg";
-import gridImg10 from "./assets/grid-img-10.jpeg";
-import gridImg11 from "./assets/grid-img-11.jpeg";
-import gridImg12 from "./assets/grid-img-12.jpeg";
-import gridImg13 from "./assets/grid-img-13.jpeg";
+import gridImg1 from './assets/grid-img-1.jpeg';
+import gridImg2 from './assets/grid-img-2.jpeg';
+import gridImg3 from './assets/grid-img-3.jpeg';
+import gridImg4 from './assets/grid-img-4.jpeg';
+import gridImg5 from './assets/grid-img-5.jpeg';
+import gridImg6 from './assets/grid-img-6.jpeg';
+import gridImg7 from './assets/grid-img-7.jpeg';
+import gridImg8 from './assets/grid-img-8.jpeg';
+import gridImg9 from './assets/grid-img-9.jpeg';
+import gridImg10 from './assets/grid-img-10.jpeg';
+import gridImg11 from './assets/grid-img-11.jpeg';
+import gridImg12 from './assets/grid-img-12.jpeg';
+import gridImg13 from './assets/grid-img-13.jpeg';
 
 function MyGallery() {
   return (

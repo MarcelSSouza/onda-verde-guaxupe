@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { Form, Button, Col, Row, FormSelect } from "react-bootstrap";
-import emailjs from "@emailjs/browser";
-import FloatingLabel from "react-bootstrap/FloatingLabel";
-import "react-datepicker/dist/react-datepicker.css";
+import React, { useState } from 'react';
+import { Form, Button, Col, Row, FormSelect } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import 'react-datepicker/dist/react-datepicker.css';
 
 export default function MyFormularioDoacao() {
-  const serviceID = "service_b4xjesh";
-  const templateID = "template_rwrga8j";
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [dateOfBirth, setDateOfBirth] = useState(""); // Initialize with an empty string
-  const [donationAmount, setDonationAmount] = useState("");
-  const [donationDate, setDonationDate] = useState("");
-  const [paymentMethod, setPaymentMethod] = useState("");
+  const serviceID = 'service_b4xjesh';
+  const templateID = 'template_rwrga8j';
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [dateOfBirth, setDateOfBirth] = useState(''); // Initialize with an empty string
+  const [donationAmount, setDonationAmount] = useState('');
+  const [donationDate, setDonationDate] = useState('');
+  const [paymentMethod, setPaymentMethod] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const templateParams = {
@@ -28,23 +28,23 @@ export default function MyFormularioDoacao() {
 
   function sendEmail(e) {
     e.preventDefault();
-    if (name === "" || email === "" || phone === "") {
-      alert("Por favor, preencha todos os campos obrigatórios.");
+    if (name === '' || email === '' || phone === '') {
+      alert('Por favor, preencha todos os campos obrigatórios.');
       return;
     }
     setIsSubmitting(true);
     emailjs
-      .send(serviceID, templateID, templateParams, "AbbZfjEa3qDPnVzeq")
+      .send(serviceID, templateID, templateParams, 'AbbZfjEa3qDPnVzeq')
       .then(
         (result) => {
-          alert("Sua mensagem foi enviada com sucesso!");
+          alert('Sua mensagem foi enviada com sucesso!');
         },
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+            'Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.',
           );
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -153,7 +153,7 @@ export default function MyFormularioDoacao() {
             className="mt-2"
             disabled={isSubmitting}
           >
-            {isSubmitting ? "Enviando..." : "Enviar"}
+            {isSubmitting ? 'Enviando...' : 'Enviar'}
           </Button>
         </Form>
       </div>

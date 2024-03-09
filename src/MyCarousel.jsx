@@ -1,9 +1,9 @@
-import React from "react";
-import { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage from "./assets/Carousel2.jpg";
-import ExampleCarouselImage1 from "./assets/Carousel1.jpg";
-import ExampleCarouselImage3 from "./assets/Carousel3.jpg";
+import React from 'react';
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import ExampleCarouselImage from './assets/Carousel2.jpg';
+import ExampleCarouselImage1 from './assets/Carousel1.jpg';
+import ExampleCarouselImage3 from './assets/Carousel3.jpg';
 
 function MyCarousel() {
   const [index, setIndex] = useState(0);

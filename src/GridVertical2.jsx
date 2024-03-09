@@ -1,7 +1,7 @@
-import React from "react";
-import doacaodinheiro from "./assets/doacao-dinheiro.png";
-import voluntario from "./assets/voluntario.png";
-import doacaoracao from "./assets/doacao-racao.png";
+import React from 'react';
+import doacaodinheiro from './assets/doacao-dinheiro.png';
+import voluntario from './assets/voluntario.png';
+import doacaoracao from './assets/doacao-racao.png';
 export default function GridVertical2() {
   return (
     <>

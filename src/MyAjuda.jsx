@@ -1,11 +1,11 @@
-import React from "react";
-import QrcodePix from "./assets/PIX.png";
-import Sicredi from "./assets/SICREDI.png";
-import { Container } from "react-bootstrap";
-import doggy from "./assets/doggy.png";
-import dogfood from "./assets/dog-food.png";
-import shirt from "./assets/shirt.png"
-import "./App.css"
+import React from 'react';
+import QrcodePix from './assets/PIX.png';
+import Sicredi from './assets/SICREDI.png';
+import { Container } from 'react-bootstrap';
+import doggy from './assets/doggy.png';
+import dogfood from './assets/dog-food.png';
+import shirt from './assets/shirt.png';
+import './App.css';
 
 export default function MyAjuda() {
   return (

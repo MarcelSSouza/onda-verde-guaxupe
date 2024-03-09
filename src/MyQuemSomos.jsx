@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Escola from "./assets/13.jpeg";
-import pug from "./assets/guaxupe.webp";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Escola from './assets/13.jpeg';
+import pug from './assets/guaxupe.webp';
 
 export default function MyQuemSomos() {
   return (
@@ -27,7 +27,7 @@ export default function MyQuemSomos() {
             ambiente, ao patrimônio cultural, aos direitos humanos e dos povos,
             por meio da elaboração de projetos teóricos e ações práticas com
             foco nas particularidades geográficas e necessidades básicas de cada
-            grupo populacional da região de abrangência da Onda Verde.{" "}
+            grupo populacional da região de abrangência da Onda Verde.{' '}
           </p>
         </Col>
       </Row>
@@ -53,7 +53,7 @@ export default function MyQuemSomos() {
               Reiki para todos, que realiza visitas onde são oferecidos três
               tratamentos aos idosos da entidade Vila Vicentina Frederico
               Ozanam: diálogo fraterno, acupuntura e Reiki aos que desejem
-              receber o cuidado fraterno, funcionários e assistidos{" "}
+              receber o cuidado fraterno, funcionários e assistidos{' '}
             </p>
           </p>
         </Col>
@@ -62,7 +62,7 @@ export default function MyQuemSomos() {
             src={Escola}
             alt="Imagem da equipe da Onda Ver Guaxupé"
             className="img-fluid"
-            style={{ width: "75%" }}
+            style={{ width: '75%' }}
           />
         </Col>
       </Row>

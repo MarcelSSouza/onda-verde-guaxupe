@@ -1,5 +1,5 @@
-import React from "react";
-import MyCachorroCards from "./MyCachorroCards";
+import React from 'react';
+import MyCachorroCards from './MyCachorroCards';
 
 export default function MyAdocaoAnimais() {
   return (

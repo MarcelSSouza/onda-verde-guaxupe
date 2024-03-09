@@ -1,16 +1,16 @@
-import React from "react";
-import { Form, Button, Col, Row } from "react-bootstrap";
-import FloatingLabel from "react-bootstrap/FloatingLabel";
-import emailjs from "@emailjs/browser";
-import { useState } from "react";
+import React from 'react';
+import { Form, Button, Col, Row } from 'react-bootstrap';
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
 function MyFormularioContato() {
-  const serviceID = "service_b4xjesh";
-  const templateID = "template_mzqpca7";
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
+  const serviceID = 'service_b4xjesh';
+  const templateID = 'template_mzqpca7';
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const templateParams = {
@@ -22,23 +22,23 @@ function MyFormularioContato() {
 
   function sendEmail(e) {
     e.preventDefault();
-    if (name === "" || email === "" || phone === "" || message === "") {
-      alert("Por favor, preencha todos os campos.");
+    if (name === '' || email === '' || phone === '' || message === '') {
+      alert('Por favor, preencha todos os campos.');
       return;
     }
     setIsSubmitting(true);
     emailjs
-      .send(serviceID, templateID, templateParams, "AbbZfjEa3qDPnVzeq")
+      .send(serviceID, templateID, templateParams, 'AbbZfjEa3qDPnVzeq')
       .then(
         (result) => {
-          alert("AuAu! Sua mensagem foi enviada com sucesso!");
+          alert('AuAu! Sua mensagem foi enviada com sucesso!');
         },
         (error) => {
           console.log(error.text);
           alert(
-            "Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+            'Desculpe, houve um problema ao enviar sua mensagem. Por favor, tente novamente mais tarde.',
           );
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -109,7 +109,7 @@ function MyFormularioContato() {
           className="mt-2 w-100"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Enviando..." : "Enviar"}
+          {isSubmitting ? 'Enviando...' : 'Enviar'}
         </Button>
       </Form>
       <br />

@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function MyFacebook() {
   return (
     <>
-    
       <div className="bg-success text-white m-0">
         <h1 className="m-0">Nosso Facebook</h1>
       </div>

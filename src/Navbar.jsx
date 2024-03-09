@@ -1,15 +1,13 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 function MyNavbar() {
   return (
     <Navbar expand="lg" bg="success" variant="light" className="text-white">
       <Container>
         <Navbar.Brand href="/">
-           <h2 className="text-white">
-           Onda Verde Guaxupé
-            </h2>
+          <h2 className="text-white">Onda Verde Guaxupé</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

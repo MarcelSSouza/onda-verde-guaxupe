@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-import Image1 from "./assets/Image1.jfif";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import Image1 from './assets/Image1.jfif';
 
 export default function UltimasNoticias() {
   return (
@@ -23,21 +23,21 @@ export default function UltimasNoticias() {
             <img
               src={Image1}
               alt="First slide"
-              style={{ maxWidth: "100%", maxHeight: "700px", margin: "0 auto" }}
+              style={{ maxWidth: '100%', maxHeight: '700px', margin: '0 auto' }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               src={Image1}
               alt="Second slide"
-              style={{ maxWidth: "100%", maxHeight: "700px", margin: "0 auto" }}
+              style={{ maxWidth: '100%', maxHeight: '700px', margin: '0 auto' }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               src={Image1}
               alt="Third slide"
-              style={{ maxWidth: "100%", maxHeight: "700px", margin: "0 auto" }}
+              style={{ maxWidth: '100%', maxHeight: '700px', margin: '0 auto' }}
             />
           </Carousel.Item>
         </Carousel>

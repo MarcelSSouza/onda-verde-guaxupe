@@ -1,8 +1,8 @@
-import React from "react";
-import adocao from "./assets/adocao.png";
-import dog from "./assets/dog-food.png";
-import doggy from "./assets/doggy.png";
-import evento from "./assets/shirt.png";
+import React from 'react';
+import adocao from './assets/adocao.png';
+import dog from './assets/dog-food.png';
+import doggy from './assets/doggy.png';
+import evento from './assets/shirt.png';
 
 export default function GridVertical() {
   return (

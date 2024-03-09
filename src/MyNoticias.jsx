@@ -1,7 +1,7 @@
-import React from "react";
-import { Card } from "react-bootstrap";
-import ExampleMancheteImage from "./assets/Manchete.jpg";
-import ExampleMancheteImage2 from "./assets/Manchete2.jpg";
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import ExampleMancheteImage from './assets/Manchete.jpg';
+import ExampleMancheteImage2 from './assets/Manchete2.jpg';
 
 export default function MyNoticias() {
   return (
@@ -42,7 +42,7 @@ export default function MyNoticias() {
           </div>
         </Card>
 
-        <Card className="row g-0 mb-3" style={{ flexDirection: "row" }}>
+        <Card className="row g-0 mb-3" style={{ flexDirection: 'row' }}>
           <div className="col-12 col-lg-3 col-md-4 d-flex justify-content-center align-items-center">
             <Card.Img
               src={ExampleMancheteImage}
